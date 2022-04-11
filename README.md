@@ -1,32 +1,18 @@
-## Routes
+# Covid-19 Tracker
 
-### https://github.com/mathdroid/covid-19-api
+### Chart with  Cases and Deaths for Every Country
 
-- /: contains opengraph image for sharing
+<img src="covid19-tracker-react/src/images/homescreen.jpg" /><br><br>
+<img src="covid19-tracker-react/src/images/greece.jpg" /><br><br>
+
+<details><summary>All API Routes </summary>
+
+#### 1) https://github.com/mathdroid/covid-19-api
 
 - /api: global summary
-
-- /api/og: generate a summary open graph image
-
-- /api/confirmed: global cases per region sorted by confirmed cases
-
-- /api/recovered: global cases per region sorted by recovered cases
-
-- /api/deaths: global cases per region sorted by death toll
-
-- /api/daily: global cases per day
-
-- /api/daily/[date]: detail of updates in a [date] (e.g. /api/daily/2-14-2020)
-
 - /api/countries: all countries and their ISO codes
+- /api/countries/[country]: a [country] summary (e.g. /api/countries/Indonesia)
 
-- /api/countries/[country]: a [country] summary (e.g. /api/countries/Indonesia or /api/countries/USA or
-  /api/countries/CN)
+#### 2) https://pomber.github.io/covid19/timeseries.json
 
-- /api/countries/[country]/confirmed: a [country] cases per region sorted by confirmed cases
-
-- /api/countries/[country]/recovered: a [country] cases per region sorted by recovered cases
-
-- /api/countries/[country]/deaths: a [country] cases per region sorted by death toll
-
-- /api/countries/[country]/og: generate a summary open graph image for a [country]
+</details>

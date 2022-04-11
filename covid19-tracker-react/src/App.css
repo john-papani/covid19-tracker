@@ -1,0 +1,248 @@
+.Homepage,
+.Homecountries {
+    width: 100%;
+    padding-top: 120px;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+
+.About {
+    width: 100%;
+    padding-top: 85px;
+    text-align: center;
+    background-color: rgb(132, 127, 198);
+}
+
+.About img {
+    height: 400px;
+}
+
+.title-covid {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.infocovid-about {
+    text-align: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 75%;
+}
+
+.about-footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.about-footer img {
+    width: 900;
+    height: 120px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #909090;
+}
+
+table tr:hover {
+    background-color: rgb(101, 61, 162);
+    font-weight: bold;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(60, 52, 91);
+    color: rgb(255, 255, 255);
+}
+
+.Homecountries {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.country {
+    padding: 0%;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.60) 100%);
+    background-blend-mode: normal, multiply;
+}
+
+.country footer {
+    text-align: right;
+}
+
+.footer-home {
+    text-align: right;
+}
+
+.start-home {
+    display: flex;
+    align-items: right;
+    width: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    list-style: disc;
+}
+
+.one,
+.two,
+.three {
+    list-style: none;
+}
+
+.link-country {
+    color: #000000;
+    text-decoration: none;
+}
+
+.link-country:hover {
+    background-color: #dfdfdf;
+    font-weight: bold;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav h2 {
+    color: #ffff;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    min-height: 10vh;
+    background: rgb(0, 17, 105);
+    background: linear-gradient(90deg, rgba(0, 17, 105, 1) 7%, rgba(21, 101, 192, 1) 100%);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    list-style: none;
+    width: 100%;
+}
+
+.links li {
+    padding-top: 50px;
+}
+
+.links {
+    color: white;
+    text-decoration-line: none;
+}
+
+.covid-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.pososto-deaths {
+    text-align: center;
+    text-decoration-color: red;
+    text-shadow: 2px 2px 5px red;
+    text-decoration-line: underline;
+}
+
+.tip-home {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: bold
+}
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+
+/* Remove extra left and right margins, due to padding in columns */
+
+.row {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the counter cards */
+
+.card {
+    box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+.card:hover {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.line1 {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #ff0000;
+    font-weight: bold;
+}
+
+.row {
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
